@@ -1,5 +1,7 @@
 # WhatsApp MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@aukik/whatsapp-mcp)](https://smithery.ai/server/aukik/whatsapp-mcp)
+
 This is a Model Context Protocol (MCP) server for WhatsApp.
 
 With this you can search and read your personal Whatsapp messages (including images, videos, documents, and audio messages), search your contacts and send messages to either individuals or groups. You can also send media files including images, videos, documents, and audio messages.
@@ -13,6 +15,14 @@ Here's an example of what you can do when it's connected to Claude.
 > To get updates on this and other projects I work on [enter your email here](https://docs.google.com/forms/d/1rTF9wMBTN0vPfzWuQa2BjfGKdKIpTbyeKxhPMcEzgyI/preview)
 
 ## Installation
+
+### Installing via Smithery
+
+To install whatsapp-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/aukik/whatsapp-mcp):
+
+```bash
+npx -y @smithery/cli install aukik/whatsapp-mcp --client claude
+```
 
 ### Prerequisites
 
